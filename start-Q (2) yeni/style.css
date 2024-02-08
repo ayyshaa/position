@@ -1,0 +1,267 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+header {
+  padding: 20px;
+}
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menu .imgbox img {
+  width: 40px;
+}
+header .menu nav a {
+  color: black;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+#beautifulfood {
+  padding: 100px 0;
+}
+#beautifulfood .textbox {
+  width: 550px;
+}
+#beautifulfood .textbox h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+#beautifulfood .textbox p {
+  margin: 20px 0 50px;
+  line-height: 1.2;
+  color: #6d6d7b;
+}
+#beautifulfood .textbox .btn {
+  color: white;
+  border: 2px solid #43afb8;
+  background-color: #43afb8;
+  padding: 12px 30px;
+  margin: 0 0 25px;
+}
+#beautifulfood .textbox p, #beautifulfood .textbox h3 {
+  font-size: 20px;
+}
+#beautifulfood .textbox h6 {
+  margin-top: 10px;
+}
+#beautifulfood .textbox span {
+  color: #43afb8;
+}
+
+#thehome {
+  padding: 50px;
+}
+#thehome .textbox {
+  width: 550px;
+}
+#thehome .textbox h1 {
+  color: #43afb8;
+  font-size: 60px;
+  font-weight: 700;
+  width: 400px;
+}
+#thehome .textbox p {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 20px 0 50px;
+  color: #8a8a8a;
+}
+#thehome .textbox .btn {
+  color: white;
+  border: 5px solid #43afb8;
+  background-color: #43afb8;
+  padding: 7px 30px;
+  font-size: 20px;
+}
+#thehome .textbox .imgbox img {
+  width: 400px;
+  height: 400px;
+}
+
+#howitworks {
+  padding: 100px 0;
+}
+#howitworks h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #43afb8;
+  margin: 0 0 50px 0;
+}
+#howitworks .textbox {
+  width: 300px;
+}
+#howitworks .textbox h2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 50px 0 20px;
+}
+#howitworks .textbox p {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #8a8a8a;
+}
+#howitworks .imgbox img {
+  width: 300px;
+  height: 250px;
+}
+
+#browse {
+  padding: 50px 0;
+}
+#browse .wid {
+  width: 500px;
+}
+#browse .textbox h1 {
+  color: #43afb8;
+  font-size: 55px;
+  font-weight: 700;
+}
+#browse .textbox h3 {
+  font-size: 20px;
+  color: #9e9e9e;
+  margin: 25px 0 45px;
+}
+#browse .textbox h3 span {
+  text-decoration: underline;
+  color: #43afb8;
+}
+#browse .textbox .btnbox {
+  display: flex;
+  justify-content: space-around;
+}
+#browse .textbox .btnbox .btn {
+  border: 1px solid #dddddd;
+  padding: 8px 45px;
+  font-size: 18px;
+}
+#browse .box {
+  margin: 40px 0;
+  display: flex;
+}
+#browse .box .imgbox {
+  margin-right: 20px;
+}
+#browse .box .imgbox img {
+  width: 100px;
+  border-radius: 10%;
+}
+#browse .box .textbox {
+  height: 100px;
+  width: 350px;
+}
+#browse .box .textbox h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+#browse .box .textbox p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 14px 0 5px;
+}
+#browse .box .textbox .btn {
+  border: 1px solid #cfcfcf;
+  padding: 8px 45px;
+  font-size: 18px;
+}
+#browse .box .textbox .PREMIUM-color {
+  color: #43afb8;
+}
+#browse .box .textbox .PREMIUM-size {
+  padding: 8px 40px 8px 8px;
+}
+#browse .box .textbox .PREMIUM-color1 {
+  background-color: #43afb8;
+  color: white;
+  padding: 8px 15px;
+}
+
+.out {
+  padding: 8px 45px;
+  font-size: 18px;
+  background-color: #43afb8;
+  color: white;
+  margin-top: 60px;
+}
+
+#orderonline {
+  padding: 80px 0;
+}
+#orderonline .textbox {
+  width: 580px;
+}
+#orderonline .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #43afb8;
+}
+#orderonline .textbox p {
+  font-size: 22px;
+  color: #8c8c8c;
+  line-height: 1.4;
+  margin: 20px 0 40px;
+}
+#orderonline .textbox .btn {
+  border: 2px solid #43afb8;
+  background-color: #43afb8;
+  color: white;
+  font-size: 20px;
+  padding: 15px 35px;
+}
+
+#callourstore {
+  padding: 60px 0;
+}
+#callourstore .textbox {
+  width: 580px;
+}
+#callourstore .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #43afb8;
+}
+#callourstore .textbox p {
+  font-size: 22px;
+  color: #8c8c8c;
+  line-height: 1.4;
+  margin: 20px 0 40px;
+}
+#callourstore .textbox .btn {
+  border: 2px solid #43afb8;
+  background-color: #43afb8;
+  color: white;
+  font-size: 20px;
+  padding: 13px 35px;
+}
+
+#support img {
+  width: 640px;
+  height: 636px;
+}
+#support .box {
+  width: 640px;
+  height: 636px;
+  background-color: #43afb8;
+}
+#support .box .textbox {
+  width: 350px;
+}
+#support .box .textbox h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+}
+#support .box .textbox h2 span {
+  color: #448d93;
+}
+#support .box .textbox .btn {
+  color: #43afb8;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px 35px;
+  margin-top: 40px;
+}/*# sourceMappingURL=style.css.map */
